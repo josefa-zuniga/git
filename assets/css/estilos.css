@@ -1,0 +1,52 @@
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+/* Hero Section */
+
+#Hero-Section {
+  background-image: url("../img/princesa.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+  height: 800px;
+}
+.titulo-comidas{
+  color: #FFFFFF;
+  background-color: rgb(39, 37, 37);
+}
+.display{
+  font-size:80px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+/* Mis trabajos */
+
+.trabajos{
+  display: flex;
+  justify-content: center;
+}
+
+#Mis-trabajos .image-top {
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* Contacto */
+
+#Contacto form label {
+  font-weight: 700;
+  color: #373a3c;
+}
+
+@media (max-width: 768px) {
+  #Contacto form label {
+    font-weight: 400;
+  }
+
+  .navbar-brand{
+    width: 100px;
+  }
+
+}
